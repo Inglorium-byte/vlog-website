@@ -1,0 +1,28 @@
+nav {
+    background-color: wheat ;
+    padding: 10px;
+    border-top: 4px solid#ccc;
+    border-bottom: 4px solid#ccc;
+}
+
+nav ul {
+    list-style-type: circle;
+    margin:0;
+    padding:0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+nav a {
+    text-decoration: double;
+    color: silver;
+    background-color: red;
+    padding: 5px 90px;
+}
+
+nav a:hover {
+    background-color: wheat;
+} 
