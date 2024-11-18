@@ -1,7 +1,7 @@
 ## THIS IS READ.ME
 # Best Chocolate Chip Cookies
 
-![An image of a cookie](https://picsum.photos/200/300)
+![An image of a cookie](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyyFms14NjyFwYDhSCBV1A4yrWXjkRx3GXCA&s)
 
 This recipe is from my dad and they are a favorite among friends and family. The secret ingredient is the coconut! _Be warned_, these will fly off of the plate!
 
