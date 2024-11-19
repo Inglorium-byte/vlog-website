@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.html">
   </head>
   <body>
     <nav> 
@@ -19,6 +20,45 @@
       </ul>
       </strong>  
     </nav>
+    <div class="container">
+      <input type="text" id="searchInput" class="search-bar" placeholder="Search for cards..." onkeyup="filterCards()">
+  
+      <div class="cards">
+        <div class="card" data-name="Card 1">
+          <h3>Card 1</h3>
+          <p>This is card number one.</p>
+        </div>
+        <div class="card" data-name="Card 2">
+          <h3>Card 2</h3>
+          <p>This is card number two.</p>
+        </div>
+        <div class="card" data-name="Card 3">
+          <h3>Card 3</h3>
+          <p>This is card number three.</p>
+        </div>
+        <div class="card" data-name="card 4">
+          <h3> Card4</h3>
+          <p>This is card no four. </p>
+        </div>
+
+      </div>
+    </div>
+  
+    <script>
+      function filterCards() {
+        const searchInput = document.getElementById('searchInput').value.toLowerCase();
+        const cards = document.querySelectorAll('.card');
+  
+        cards.forEach(card => {
+          const cardName = card.getAttribute('data-name').toLowerCase();
+          if (cardName.includes(searchInput)) {
+            card.style.display = '';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      }
+    </script>
     <h1 id="Heading">Hello world!</h1>
     <p>
       HTML is also referred to as a hypertext format. That means that each file
